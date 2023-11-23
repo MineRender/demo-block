@@ -25,4 +25,5 @@ if (args.includes("--watch")) {
     })
 } else {
     await context.rebuild();
+    await context.dispose();
 }
